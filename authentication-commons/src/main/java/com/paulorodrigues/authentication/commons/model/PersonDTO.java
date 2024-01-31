@@ -82,7 +82,7 @@ public class PersonDTO  {
             sb.append("birthdate='").append(birthdate).append('\'').append(", ");
         }
         if (Objects.nonNull(gender)) {
-            sb.append("sex=").append(gender).append(", ");
+            sb.append("gender=").append(gender).append(", ");
         }
         if (StringUtils.isNotBlank(cpf)) {
             sb.append("cpf='").append(cpf).append('\'').append(", ");
