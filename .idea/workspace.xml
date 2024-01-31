@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4736da57-cd51-4bea-aa23-95bb2c522295" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/enums/TipoLogradouro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/exception/InvalidRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/exception/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/exception/UnknownErrorException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/exception/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/AddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/CityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/CountryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/PersonDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/PersonQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/PersonRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/PersonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/StateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/Token.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/UpdatePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/model/UserQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/resource/AuthenticationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/util/ConstantsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/util/FormatUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/util/MessageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/util/PageableQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/AuthenticationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/entity/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/entity/StateCountry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/repository/CityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/repository/CountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/repository/StateCountryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/address/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/person/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/person/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/person/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/person/service/PersonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/service/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/service/DataInitializr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authentication-service/src/main/java/com/paulorodrigues/authentication/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2aPyceemdFKhOTSok1Y55MfffdH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AuthenticationServiceApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/authentication-commons/src/main/java/com/paulorodrigues/authentication/commons/exception" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AuthenticationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.paulorodrigues.authentication.AuthenticationServiceApplication" />
+      <module name="authentication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.paulorodrigues.authentication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AuthenticationServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.16-jbr_dcevm-11.0.16-4caba194b151-a86c5f01" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4736da57-cd51-4bea-aa23-95bb2c522295" name="Changes" comment="" />
+      <created>1704234590709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704234590709</updated>
+    </task>
+    <servers />
+  </component>
+</project>
